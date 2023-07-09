@@ -1,0 +1,110 @@
+/* MyForm.js Page*/
+.myform{
+  font-size: 20px;
+  display: block;
+  width: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.myform input{
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 6px;
+}
+.generatePassword{
+  width: 75%;
+  height: 2.5rem;
+  font-size: 24px;
+  border-radius: 6px;
+}
+passwordLabel{
+  border:1px solid black;
+  margin-right:10px;
+  background:white;
+  color:black;
+  max-width:31rem;
+}
+
+.form-components{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+/* About.js Page */
+.about h1{
+  color: #50adff;
+}
+.about-p{
+  width: 35rem;
+  text-align:left;
+  font-size: 18px;
+}
+.about-div{
+  /* position: relative;
+  float: right; */
+  margin-left: 30%;
+  margin-bottom: -20px;
+}
+
+/* Footer.js Page */
+.footer{
+  margin-top: 3rem;
+  padding-top: 0.2rem;
+  /* flex-basis: auto; */
+}
+.footer img{
+  width: 38px;
+  margin-right: 20px;
+}
+.footer p{
+  margin-top: 5px;
+}
+@media (max-width:840px){
+  .about-div{
+    margin-left: 15%;
+  }
+}
+@media (max-width:750px){ 
+  .about-p{
+    width: 25rem;
+  }
+  .about-div{
+    margin-left: 0;
+  }
+  .about h1{
+    color: #9fd2ff;
+  }
+  
+  .myform{
+    width: 21rem;
+    margin-left: 10%;
+    margin-right: 0;
+    font-size: 17px;
+  }
+  .myform input{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 6px;
+  }
+  .passwordLabel{
+    margin-left: 14%;
+  }
+  .copyButton{
+    margin-left: 33%;
+  }
+  .generatePassword{
+    margin-left: 17%;
+  }
+}
+@media (max-width:400px){
+  .about-p{
+    width: 20rem;
+  }
+  .myform{
+    width: 21rem;
+    margin-left: 4%;
+    margin-right: 0;
+    font-size: 17px;
+  }
+}
